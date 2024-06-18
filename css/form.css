@@ -1,0 +1,28 @@
+@charset "utf-8";
+@font-face {
+	font-family: Quicksand;
+	src: url('../fonts/Quicksand-Regular.woff') format('woff') ,
+	   url('../fonts/Quicksand-Regular.ttf') format('truetype');
+}
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   CA2
+   
+   TSS Typographic Style Sheet
+   Author: Song Han
+   Date:   01/08/2023
+   
+   Filename: form.css
+
+*/
+
+body{
+  font-family: Quicksand, Verdana , Geneva , sans-serif;
+  background: linear-gradient(to right, rgb(255, 252, 185), rgb(	218, 226, 248));
+}
+#form{
+    margin-left: 25%;
+}
+.field{
+  position: relative;
+}
